@@ -1,5 +1,6 @@
 # dupage-kotlin
-kotlin spring selenium gradle framework
+- Selenium Component Object framework using Kotlin and Spring
+
 
 ## Project stack
 - Kotlin 1.4.10
