@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class DupageKotlinApplication
 
 fun main(args: Array<String>) {
-	runApplication<DupageKotlinApplication>(*args)
+    runApplication<DupageKotlinApplication>(*args)
 }

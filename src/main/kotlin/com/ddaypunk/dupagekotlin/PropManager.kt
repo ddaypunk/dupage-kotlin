@@ -2,7 +2,7 @@ package com.ddaypunk.dupagekotlin
 
 import java.io.FileInputStream
 import java.io.IOException
-import java.util.*
+import java.util.* // ktlint-disable
 
 object PropManager {
 
