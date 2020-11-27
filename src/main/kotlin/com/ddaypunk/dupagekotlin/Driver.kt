@@ -18,10 +18,18 @@ object Driver {
     private fun createDriver(): WebDriver {
         val isLocal = PropManager.getProp("local").toBoolean()
 
-        if (isLocal) {
-            return getChromeDriver()
+        return if (isLocal) {
+            getLocalDriver()
+        } else {
+            getRemoteDriver()
         }
+    }
 
+    private fun getLocalDriver(): WebDriver {
+        return getChromeDriver()
+    }
+
+    private fun getRemoteDriver(): WebDriver {
         return getChromeDriver()
     }
 
